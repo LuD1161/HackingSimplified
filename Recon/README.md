@@ -100,3 +100,5 @@ No shame in self promotion here   :partying_face:  :fire: :tada:
 [Amass](https://github.com/OWASP/Amass#-owasp-amass) | [Assetfinder](https://github.com/tomnomnom/assetfinder#implemented) | [Findomain](https://github.com/Edu4rdSHL/findomain#how-it-works) | [Subfinder](https://github.com/projectdiscovery/subfinder/tree/master/pkg/subscraping/sources)
 
 Please make sure you add the link to the source, while raising PR for this :)
+
+P.S. : To update or correct the info, please raise a PR too with the relevant source.
