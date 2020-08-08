@@ -13,6 +13,7 @@ resolversFile=$2
 dt=$(date +%F.%H.%M.%S)
 toolsDir=~/tools
 resultDir=$toolsDir/results/$domain-$dt
+mkdir -p $resultDir
 
 #### COLORS #### ( Taken from : https://misc.flogisoft.com/bash/tip_colors_and_formatting )
 NORMAL='\e[0m'
