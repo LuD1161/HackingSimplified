@@ -76,6 +76,21 @@ find_subdomains(){
     start_findomain
 }
 
+find_ips(){
+  echo -e "${LIGHT_YELLOW}Now doing massdns on the domain${NORMAL}"
+  # Do masscanning only when massdns is finished working
+  massdnsOutput=$resultDir/$domain.ips.txt
+  allSubdomainsOutput=$resultDir/$domain.subdomains.txt
+  massdns_temp=$domain.massdns.tmp
+  massdns -r $resolversFile -t A -o S -w $massdns_temp $allSubdomainsOutput | tee -a $resultDir/log.txt
+  # resolved domain names
+  # cat $massdns_temp | cut -f1 -d" " | sed -e "s/\.$//g" | sort -u 
+  cat $massdns_temp | cut -d" " -f3 | grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" >> $massdnsOutput
+  rm $massdns_temp
+  echo -e "${LIGHT_GREEN}Massdns complete${NORMAL}"
+}
+
+
 find_subdomains
 
 ###### Check for completion ######
@@ -105,10 +120,11 @@ do
 done
 ########################################################################
 
+find_ips
+
 echo ""
 
 echo -e "${BOLD}${LIGHT_GREEN}Done finding subdomains${NORMAL}"
 echo -e "${BOLD}${LIGHT_GREEN}Total unique subdomains found : `wc -l $resultDir/$domain.subdomains.txt`${NORMAL}"
 echo -e "Results in : ${LIGHT_GREEN}$resultDir${NORMAL}"
 echo -e "${LIGHT_GREEN}" && tree $resultDir && echo -en "${NORMAL}"
-
