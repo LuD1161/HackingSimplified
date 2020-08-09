@@ -17,7 +17,7 @@ No shame in self promotion here   :partying_face:  :fire: :tada:
 | Ask           | ✓     |             |           |           |
 | Baidu         | ✓     |             |           |           |
 | Bing          | ✓     |             |           |           |
-| BufferOverRun |       | ✓           |           |           |
+| BufferOverRun | ✓     | ✓           | ✓         | ✓         |
 | BuiltWith     | ✓     |             |           |           |
 | DNSDumpster   | ✓     |             |           | ✓         |
 | DNSTable      | ✓     |             |           |           |
