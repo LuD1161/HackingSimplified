@@ -1,0 +1,37 @@
+{
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~38.0.8",
+    "expo-constants": "~9.1.1",
+    "expo-notifications": "~0.3.3",
+    "expo-permissions": "~9.0.1",
+    "expo-splash-screen": "^0.5.0",
+    "expo-status-bar": "^1.0.2",
+    "expo-updates": "~0.2.10",
+    "react": "~16.11.0",
+    "react-dom": "~16.11.0",
+    "react-native": "~0.62.2",
+    "react-native-gesture-handler": "~1.6.1",
+    "react-native-reanimated": "~1.9.0",
+    "react-native-screens": "~2.9.0",
+    "react-native-unimodules": "~0.10.1",
+    "react-native-web": "~0.11.7",
+    "unimodules-constants-interface": "5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-jest": "~25.2.6",
+    "babel-preset-expo": "~8.1.0",
+    "jest": "~25.2.6",
+    "react-native-bundle-visualizer": "^2.2.1",
+    "react-test-renderer": "~16.11.0"
+  },
+  "private": true,
+  "name": "my-notifications",
+  "version": "1.0.0"
+}

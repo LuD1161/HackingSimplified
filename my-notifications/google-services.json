@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "439497683878",
+    "firebase_url": "https://notifyme-5d7e2.firebaseio.com",
+    "project_id": "notifyme-5d7e2",
+    "storage_bucket": "notifyme-5d7e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439497683878:android:a2dd1d183b8d0d0186d567",
+        "android_client_info": {
+          "package_name": "com.hackingsimplified.notifyme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439497683878-tdh1f1nnt1jqu8b3vhn8i2kvcrsfkjr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVycC_C1pLtsHBun4XQaqB-2xSrQjP3hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439497683878-tdh1f1nnt1jqu8b3vhn8i2kvcrsfkjr3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
