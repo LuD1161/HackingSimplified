@@ -1,0 +1,30 @@
+discord:
+  - id: "scan_status" # For scan statuses
+    discord_channel: "scan"
+    discord_username: "Scan Bot"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/XXXXXXXX"
+
+  - id: "subs"
+    discord_channel: "subs"
+    discord_username: "test"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/XXXXXXXX"
+
+  - id: "ffuf" # For ffuf findings
+    discord_channel: "ffuf"
+    discord_username: "test"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/XXXXXXXX"
+
+  - id: "nuclei" # For nuclei output
+    discord_channel: "nuclei"
+    discord_username: "test"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/XXXXXXXX"
+
+  - id: "test" # For test output
+    discord_channel: "test"
+    discord_username: "Scan Bot"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/XXXXXXXX"
